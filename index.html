@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Bookjoyful</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="navbar">
+        <h1>Book Joyful</h1>
+    </div>
+    <div class="container">
+        <div class="book-container">
+            <h2>Good boy</h2>
+            <h5>Balu </h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi quas reprehenderit veniam, cum deleniti aspernatur, repellat a saepe nulla dolore error aliquid? Iste vel, magnam voluptate itaque ipsa minima facilis!</p>
+            <button onclick="deletebook(event)">close</button>
+
+        </div>
+
+    </div>
+    <div class="popup-overlay"></div>
+    <div class="popup-box">
+        <h2>Add Book</h2>
+        <form>
+            <input type="text" placeholder="Book Title" id="book-name-input">
+            <input type="text" placeholder="Author Name" id="author-name-input">
+            <textarea placeholder="Short Description " id="short-discription"></textarea>
+            <button id="add-popup">ADD</button>
+            <button id="cancel-popup">CANCEL</button>
+        </form>
+    </div>
+
+
+    <button class="add-button" id="popup-button"> + </button>
+    <script src="script.js"></script>
+</body>
+</html>
